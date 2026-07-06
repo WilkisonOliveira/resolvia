@@ -1,0 +1,6 @@
+@Resolvia.API_HostAddress = http://localhost:5110
+
+GET {{Resolvia.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

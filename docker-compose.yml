@@ -1,0 +1,15 @@
+services:
+    postgres:
+        image: postgres:16
+        container_name: resolvia-postgres
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: resolvia
+        ports:
+            - "5433:5432"
+        volumes:
+            - resolvia-data:/var/lib/postgresql/data
+
+volumes:
+    resolvia-data:

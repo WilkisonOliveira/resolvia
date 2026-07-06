@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Resolvia.API/Resolvia.API.csproj" />
+    <Project Path="src/Resolvia.Application/Resolvia.Application.csproj" />
+    <Project Path="src/Resolvia.Domain/Resolvia.Domain.csproj" />
+    <Project Path="src/Resolvia.Infrastructure/Resolvia.Infrastructure.csproj" />
+  </Folder>
+</Solution>
